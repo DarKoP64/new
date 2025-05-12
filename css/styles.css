@@ -1,0 +1,21 @@
+/* Estilos personalizados */
+.required:after {
+    content: " *";
+    color: #dc3545;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+#registroForm {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.form-check {
+    display: inline-block;
+    margin-right: 1rem;
+}
